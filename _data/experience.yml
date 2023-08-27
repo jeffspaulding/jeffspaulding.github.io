@@ -1,19 +1,124 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Apple TV+ - Systems Engineer, Contractor
+- company: Apple TV+
+  position: Systems Engineer, Contractor
+  duration: Nov 2022 - May 2023
+  summary:
+    <ul class="resume-item-list">
+      <li>Facilitated the development of 5 in-house app integrations with OneLogin using OpenID Connect (OIDC), SAML, OAuth 2.0, and SCIM APIs</li>
+      <li>Integrated 8 apps with OneLogin for Single Sign-On (SSO) and just-in-time (JIT) or SCIM provisioning</li>
+      <li>Developed automation using OneLogin as an Identity Provider (IdP), Zendesk as an IT Service Management (ITSM) platform, Python as a scripting language, and Google Cloud Platform (GCP) as a compute host, resulting in a projected 3-member reduction in IT staffing needs in 2023</li>
+      <li>Administered OneLogin, Zendesk, Box, Google Workspace, and Oomnitza</li>
+    </ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
-
+# Scopely
+- company: Scopely
+  position: Senior IT Engineer
+  duration: Aug 2021 - Oct 2022
+  summary: 
+    <ul class="resume-item-list">
+      <li>Reduced annual SaaS costs by $200,000 in 2022 by performing audits using Python scripts, APIs, and Excel</li>
+      <li>Reduced IT new hire provisioning time by 50% through process optimization</li>
+      <li>Implemented Oomnitza as an IT Asset Management (ITAM) platform, coordinating over 9,000 assets</li>
+      <li>Reduced average resolution times from 12 business days to 6 business days through process improvements</li>
+      <li>Utilized Slack APIs and Twilio to enable SMS to Slack Channels for group-accessible MFA</li>
+      <li>Administered Adobe Creative Cloud, Apple App Store Connect, Figma, GitHub, Google Workspace, Grammarly, Lucidchart, Mailchimp, Microsoft App Center, Miro, NinjaRMM, Office 365, Okta, Oomnitza, Smartsheet, Twilio, and Zoom</li>
+    </ul>
 
 # Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: Feedwire
+  position: IT Consultant
+  duration: Mar 2019 - Apr 2021
+  summary: 
+    <ul class="resume-item-list">
+      <li>Led a team of 5 Systems Engineers billing 200 hours per week for a portfolio of 200 annual clients</li>
+      <li>Increased company revenue by 15% by implementing agile project management and process improvement</li>
+      <li>Implemented OneLogin for 30-40 projects, Slack for 10 projects, Zendesk for 3 projects, Google Workspace and Office 365 for 20-30 projects, and Microsoft Intune for 3 projects</li>
+      <li>Conducted 30-40 email migrations, 10 cloud data migrations, and 10-20 office network installations</li>
+      <li>Utilized Slack APIs with Google Calendar APIs to create billing review notifications for agents</li>
+      <li>Utilized Slack APIs with Airtable APIs to respond with a random breakfast suggestion</li>
+      <li>Utilized Google Calendar APIs, Zendesk APIs, Airtable APIs, Amazon Web Services (AWS) Relational Database Service (RDS), and Brightgauge to create real-time capacity and KPI dashboards, reducing average response times to 30 minutes and average resolution times to 2.5 days</li>
+    </ul>
+    Examples of the work I’ve done for my clients at Feedwire include
+
+# Communications Coordinator
+- position: Social Movement Organization
+  duration: ~50 Employees
+  summary: 
+    <ul class="resume-item-list">
+      <li>Established a new Google Workspace tenant to host active mailboxes and a new Office 365 tenant to host archived mail in the form of shared mailboxes, reducing costs for retaining old mail, then performed a split migration, migrating active mail to Google Workspace and old mail to Office 365</li>
+      <li>Established mail routes that direct email addressed not hosted in Google Workspace to Office 365 so as not to miss any potential emails</li>
+      <li>Configured Ironscales to catch potential phishing and spam emails to increase security</li>
+    </ul>
+
+# Communications Coordinator
+- position: Live Television Production Studio
+  duration: ~200 Employees
+  summary: 
+    <ul class="resume-item-list">
+      <li>Implemented SimpleMDM to configure devices with a base installation of Munki, enabling security policies such as FileVault 2 for full-disk encryption and password requirements</li>
+      <li>Configured OneLogin as an Identity Provider (IdP), Dropbox as a file collaboration solution, Office 365 as a mail host, and Evercast as a remote editing tool to facilitate remote work</li>
+      <li>Configured an on-premises Active Directory server to sync users to OneLogin, mapping user groups to OneLogin roles to provide access to SaaS applications while Active Directory provided access to on-premises applications</li>
+      <li>Configured each device with SonicWall Connect VPN access to the on-premises equipment to view footage on AVID or to access the on-premises file server</li>
+    </ul>
+
+# Communications Coordinator
+- company: Honey (joinhoney.com)
+  position: IT Generalist
+  duration: Jun 2018 - Jan 2019
+  summary: 
+    <ul class="resume-item-list">
+      <li>Designed AV conference rooms that allowed for seamless transitions between meetings, reducing overall staff time spent troubleshooting video conferences by about $80,000 per year</li>
+      <li>Utilized Slack APIs to ingest messages and convert them to support tickets, and interpret support ticket updates to relay back to the requestor, such that employees only needed to interact with Slack for IT support</li>
+      <li>Designed the IPv4 subnets and VLAN scheme for a branch office, with SSIDs and network ports configured for infrastructure, staff, and guest VLANs</li>
+      <li>Configured Ubiquiti Security Gateway, Ubiquiti Access Point AC Pro, and Ubiquiti Switch 16 PoE</li>
+    </ul>
+
+# Communications Coordinator
+- company: Naughty Dog
+  position: IT Generalist, Contractor
+  duration: Mar 2018 - Jun 2018
+  summary: 
+    <ul class="resume-item-list">
+      <li>Deployed Windows 10 to replace Windows 7 by imaging a new hard drive with a copy of Windows 10 configured with a base suite of applications, installing the drive in the target desktop, configuring BIOS to use that drive as the boot volume, and mapping the old Windows 7 drive as an external volume for file transfer</li>
+      <li>Assisted the Engineering team with DevOps tasks by researching and implementing a proof-of-concept of GitHub Large File Storage (LFS)</li>
+    </ul>
+
+# Communications Coordinator
+- company: Headspace Inc.
+  position: Systems Administrator
+  duration: Jan 2017 - Oct 2017
+  summary: 
+    <ul class="resume-item-list">
+      <li>Implemented Airwatch as a cross-platform Mobile Device Management (MDM) system, enrolling Windows, iOS, and Android devices to be compliant with IT security policies</li>
+      <li>Implemented OneLogin as an Identity Provider (IdP), enrolling employees with Multi-Factor Authentication (MFA) and adding applications for Single Sign-On (SSO) with just-in-time (JIT) provisioning</li>
+      <li>Created WiFi heat maps to identify areas of weak signal strength, relocated access points, and adjusted radio settings to improve WiFi connectivity throughout the office</li>
+    </ul>
+
+# Communications Coordinator
+- company: CG Master Academy  
+  position: IT Supervisor
+  duration: Sep 2015 - Dec 2016
+  summary: 
+    <ul class="resume-item-list">
+      <li>Developed a video conversion and hosting platform using Amazon Web Services (AWS) Elastic Compute Cloud (EC2), Linux/Nginx/MySQL/PHP (LEMP) servers, AWS Simple Storage Service (S3), and AWS CloudFront, reducing IT services costs by $150,000 per year</li>
+    </ul>
+
+# Communications Coordinator
+- company: California State University Northridge
+  position: IT Help Center Consultant
+  duration: Sep 2014 - Sep 2015
+  summary: 
+    <ul class="resume-item-list">
+      <li>Developed a Google Chrome extension using JavaScript, HTML, and CSS, significantly increasing ticket creation speed by 20% and efficiency by 400%</li>
+      <li>Resolved issues with LDAP, Active Directory, Office 365, Google Workspace, and VPN connections</li>
+    </ul>
+
+# Communications Coordinator
+- company: The University of Maine
+  position: Student Computer Tech IV
+  duration: May 2011 - Aug 2014
+  summary: 
+    <ul class="resume-item-list">
+      <li>Performed malware removal, hardware diagnostic, and software troubleshooting on an estimated 1,500 Windows, macOS, iOS, and Android devices</li>
+    </ul>
