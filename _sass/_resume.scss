@@ -16,9 +16,139 @@
   }
 }
 
+// Links
+
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: underline;
+}
+
+a {
+
+    background-color: transparent;
+    text-decoration: none;
+    color: #3366cc;
+    font-weight: bold;
+}
+
+main {
+  position: relative;
+}
+
+.scroll-top {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.scroll-top-link {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 85vh;
+  text-decoration: none;
+  border-radius: .25rem;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  font-weight: 700;
+  opacity:.90;
+}
+
+.scroll-top-link:hover {
+  opacity: initial;
+  color: white;
+}
+
+blockquote {
+  background-color: #EEE;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#table-of-contents {
+  width: 270px;
+  font-size: 0.875em;
+  position: fixed;
+  left: 50%;
+  margin-left: -640px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#toc-header {
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+#table-of-contents ol {
+  list-style: none;
+  padding-inline-start: 10px;
+  margin-top: 2px;
+}
+
+#table-of-contents ol li {
+  padding-top: 10px;
+}
+
+section li {
+  padding: 5px 0px;
+}
+
+#table-of-contents a {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1300px) {
+    #table-of-contents {
+        display: none;
+    }
+}
+
+// Navbar styles
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 680px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #c7c7c7;
+  z-index: 1;
+}
+
+nav .nav-left {
+  float: left;
+}
+
+nav .nav-right {
+  float: right;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -.05rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #111;
+}
+
 // page header styles
 
-.page-header { padding: 1.5rem 0;
+.resume-header { padding-top: 6rem;
 
   .avatar {
     width: 95px;
@@ -47,30 +177,63 @@
     color: inherit;
   }
 
-  .title-bar {
-    @include section_border;
-    margin-top: 2rem;
-    padding: .4rem 0;
-    @include clearfix;
-
-    .header-title {
-      @include sans;
-      font-weight: 300;
-      font-size: 1.75rem;
-      line-height: 2rem;
-      letter-spacing: -.05rem;
-      text-align: center;
-      margin: 0 0 .5rem;
-
-      @include media_larger_than_mobile {
-        float: left;
-        margin: 0;
-      }
-    }
-  }
-
   .executive-summary {
     @include media_larger_than_mobile { font-size: 1.125rem; }
+  }
+}
+
+.page-header { padding-top: 4rem;
+
+  .avatar {
+    width: 65px;
+    max-width: 100%;
+    overflow: hidden;
+    @include border-radius(100px);
+    display: inline-block;
+  }
+
+  .header-name {
+    @include sans;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: -.15rem;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+    vertical-align: top;
+  }
+
+  .header-contact-info {
+    @include sans;
+    display:inline-block;
+    float:right;
+    font-size: 0.8rem;
+    padding-top: 10px;
+  }
+  .header-contact-info p a {
+    color: inherit;
+  }
+}
+
+.title-bar {
+  @include section_border;
+  margin-top: 2rem;
+  padding: .4rem 0;
+  @include clearfix;
+
+  .header-title {
+    @include sans;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    letter-spacing: -.05rem;
+    text-align: center;
+    margin: 0 0 .5rem;
+
+    @include media_larger_than_mobile {
+      float: left;
+      margin: 0;
+    }
   }
 }
 

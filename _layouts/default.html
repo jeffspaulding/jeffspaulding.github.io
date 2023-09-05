@@ -7,7 +7,7 @@
 
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
 
-      <header class="resume-header">
+      <header class="page-header">
         {% include nav.html %}
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
@@ -16,7 +16,7 @@
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <span class="header-name" itemprop="name">{{ site.resume_name }}</span>
 
         <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
         {% if site.display_header_contact_info == 'true' %}
