@@ -6,9 +6,10 @@
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+      
+      {% include nav.html %}
 
       <header class="resume-header">
-        {% include nav.html %}
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}

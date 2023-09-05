@@ -112,21 +112,32 @@ section li {
 // Navbar styles
 
 nav {
-  position: fixed;
-  top: 0;
+  position: sticky;
+  top: 0px;
   background-color: white;
-  width: 680px;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 2px solid #c7c7c7;
   z-index: 1;
 }
 
-nav .nav-left {
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: right;
+}
+
+.float-left {
   float: left;
 }
 
-nav .nav-right {
+.float-right {
   float: right;
 }
 
@@ -148,7 +159,7 @@ nav a:hover {
 
 // page header styles
 
-.resume-header { padding-top: 6rem;
+.resume-header { padding-top: 4rem;
 
   .avatar {
     width: 95px;
@@ -182,7 +193,9 @@ nav a:hover {
   }
 }
 
-.page-header { padding-top: 4rem;
+.page-header { 
+  margin-top: 20px;
+  display: inline-block;
 
   .avatar {
     width: 65px;
@@ -190,6 +203,7 @@ nav a:hover {
     overflow: hidden;
     @include border-radius(100px);
     display: inline-block;
+    vertical-align: top;
   }
 
   .header-name {
@@ -198,17 +212,18 @@ nav a:hover {
     font-weight: 900;
     letter-spacing: -.15rem;
     display: inline-block;
-    padding-left: 20px;
-    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 65px;
     vertical-align: top;
   }
 
   .header-contact-info {
     @include sans;
     display:inline-block;
-    float:right;
     font-size: 0.8rem;
-    padding-top: 10px;
+    line-height: 65px;
+    vertical-align: top;
   }
   .header-contact-info p a {
     color: inherit;
