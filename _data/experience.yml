@@ -1,6 +1,7 @@
 # Jobs
 # Apple TV+ - Systems Engineer, Contractor
 - company: Apple TV+
+  image: images/apple.jpg
   id: appletv
   position: Systems Engineer, Contractor
   duration: Nov 2022 - May 2023
@@ -14,6 +15,7 @@
 
 # Scopely
 - company: Scopely
+  image: images/scopely.jpg
   id: scopely
   position: Senior IT Engineer
   duration: Aug 2021 - Oct 2022
@@ -29,6 +31,7 @@
 
 # Communications Coordinator
 - company: Feedwire
+  image: images/feedwire.jpg
   id: feedwire
   position: IT Consultant
   duration: Mar 2019 - Apr 2021
@@ -67,6 +70,7 @@
 
 # Communications Coordinator
 - company: Honey (joinhoney.com)
+  image: images/honey.jpg
   id: honey
   position: IT Generalist
   duration: Jun 2018 - Jan 2019
@@ -80,6 +84,7 @@
 
 # Communications Coordinator
 - company: Naughty Dog
+  image: images/naughtydog.jpg
   id: naughtydog
   position: IT Generalist, Contractor
   duration: Mar 2018 - Jun 2018
@@ -91,6 +96,7 @@
 
 # Communications Coordinator
 - company: Headspace Inc.
+  image: images/headspace.jpg
   id: headspace
   position: Systems Administrator
   duration: Jan 2017 - Oct 2017
@@ -103,6 +109,7 @@
 
 # Communications Coordinator
 - company: CG Master Academy
+  image: images/cgma.jpg
   id: cgmasteracademy
   position: IT Supervisor
   duration: Sep 2015 - Dec 2016
@@ -113,6 +120,7 @@
 
 # Communications Coordinator
 - company: California State University Northridge
+  image: images/csun.jpg
   id: csun
   position: IT Help Center Consultant
   duration: Sep 2014 - Sep 2015
@@ -124,6 +132,7 @@
 
 # Communications Coordinator
 - company: The University of Maine
+  image: images/umaine.jpg
   id: umaine
   position: Student Computer Tech IV
   duration: May 2011 - Aug 2014
