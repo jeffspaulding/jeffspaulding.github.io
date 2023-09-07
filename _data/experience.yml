@@ -7,10 +7,10 @@
   duration: Nov 2022 - May 2023
   summary:
     <ul class="resume-item-list">
-      <li>Facilitated the development of 5 in-house app integrations with OneLogin using OpenID Connect (OIDC), SAML, OAuth 2.0, and SCIM APIs</li>
-      <li>Integrated 8 apps with OneLogin for Single Sign-On (SSO) and just-in-time (JIT) or SCIM provisioning</li>
-      <li>Developed automation using OneLogin as an Identity Provider (IdP), Zendesk as an IT Service Management (ITSM) platform, Python as a scripting language, and Google Cloud Platform (GCP) as a compute host, resulting in a projected 3-member reduction in IT staffing needs in 2023</li>
-      <li>Administered OneLogin, Zendesk, Box, Google Workspace, and Oomnitza</li>
+      <li>Streamlined integration of 5 Apple-built, in-house apps with OneLogin, enhancing security and user access through technologies like OpenID Connect (OIDC), SAML, OAuth 2.0, and SCIM APIs.</li>
+      <li>Enabled Single Sign-On (SSO) and just-in-time (JIT) or SCIM provisioning for SaaS applications via OneLogin, simplifying user access management.</li>
+      <li>Created a streamlined automation system utilizing OneLogin as an Identity Provider (IdP), Zendesk for IT Service Management (ITSM), Python scripting, and Google Cloud Platform (GCP) for computation, forecasted to reduce IT staffing requirements by 3 members in 2023.</li>
+      <li>Managed critical systems including OneLogin, Zendesk, Box, Google Workspace, and Oomnitza.</li>
     </ul>
 
 # Scopely
@@ -21,12 +21,11 @@
   duration: Aug 2021 - Oct 2022
   summary: 
     <ul class="resume-item-list">
-      <li>Reduced annual SaaS costs by $200,000 in 2022 by performing audits using Python scripts, APIs, and Excel</li>
-      <li>Reduced IT new hire provisioning time by 50% through process optimization</li>
-      <li>Implemented Oomnitza as an IT Asset Management (ITAM) platform, coordinating over 9,000 assets</li>
-      <li>Reduced average resolution times from 12 business days to 6 business days through process improvements</li>
-      <li>Utilized Slack APIs and Twilio to enable SMS to Slack Channels for group-accessible MFA</li>
-      <li>Administered Adobe Creative Cloud, Apple App Store Connect, Figma, GitHub, Google Workspace, Grammarly, Lucidchart, Mailchimp, Microsoft App Center, Miro, NinjaRMM, Office 365, Okta, Oomnitza, Smartsheet, Twilio, and Zoom</li>
+      <li>Achieved a $200,000 reduction in annual SaaS expenditures in 2022 by conducting comprehensive audits employing Python scripts, APIs, and Excel.</li>
+      <li>Successfully deployed Oomnitza as the IT Asset Management (ITAM) platform, overseeing the ingestion of and ensuring quality data for more than 9,000 assets.</li>
+      <li>Enhanced efficiency by cutting IT new hire provisioning time in half through streamlined process optimization.</li>
+      <li>Reduced average resolution times by 50% through strategic process enhancements.</li>
+      <li>Administered SaaS applications including Adobe Creative Cloud, Apple App Store Connect, Figma, GitHub, Google Workspace, Grammarly, Lucidchart, Mailchimp, Microsoft App Center, Microsoft Office 365, Miro, NinjaRMM,  Okta, Oomnitza, Smartsheet, Twilio, and Zoom.</li>
     </ul>
 
 # Communications Coordinator
@@ -36,25 +35,24 @@
   position: IT Consultant
   duration: Mar 2019 - Apr 2021
   summary: 
-    <ul class="resume-item-list">
-      <li>Led a team of 5 Systems Engineers billing 200 hours per week for a portfolio of 200 annual clients</li>
-      <li>Increased company revenue by 15% by implementing agile project management and process improvement</li>
-      <li>Implemented OneLogin for 30-40 projects, Slack for 10 projects, Zendesk for 3 projects, Google Workspace and Office 365 for 20-30 projects, and Microsoft Intune for 3 projects</li>
-      <li>Conducted 30-40 email migrations, 10 cloud data migrations, and 10-20 office network installations</li>
-      <li>Utilized Slack APIs with Google Calendar APIs to create billing review notifications for agents</li>
-      <li>Utilized Slack APIs with Airtable APIs to respond with a random breakfast suggestion</li>
-      <li>Utilized Google Calendar APIs, Zendesk APIs, Airtable APIs, Amazon Web Services (AWS) Relational Database Service (RDS), and Brightgauge to create real-time capacity and KPI dashboards, reducing average response times to 30 minutes and average resolution times to 2.5 days</li>
+    '<ul class="resume-item-list">
+      <li>Led a team of five Systems Engineers responsible for over one million dollars of billable work per year across a portfolio of 200 annual clients.</li>
+      <li>Achieved a 15% revenue increase through the implementation of agile project management methodologies and process enhancements.</li>
+      <li>Employed Slack APIs in conjunction with Google Calendar APIs to develop automated billing review notifications for agents.</li>
+      <li>Leveraged Google Calendar APIs, Zendesk APIs, Airtable APIs, AWS Relational Database Service (RDS), and Brightgauge to develop real-time capacity and Key Performance Indicator (KPI) dashboards, resulting in a reduction of average response times to 30 minutes and average resolution times to 2.5 days.</li>
+      <li>Successfully deployed OneLogin for 30-40 projects, Slack for 10 projects, Zendesk for 3 projects, and managed Google Workspace and Office 365 for 20-30 projects.</li>
+      <li>Executed 30-40 email migrations and 10 cloud data migrations, and facilitated 10-20 office network installations.</li>
     </ul>
-    Examples of the work I’ve done for my clients at Feedwire include
+    Examples of the work I’ve done for my clients at Feedwire include:'
 
 # Communications Coordinator
 - position: Social Movement Organization
   duration: ~50 Employees
   summary: 
     <ul class="resume-item-list">
-      <li>Established a new Google Workspace tenant to host active mailboxes and a new Office 365 tenant to host archived mail in the form of shared mailboxes, reducing costs for retaining old mail, then performed a split migration, migrating active mail to Google Workspace and old mail to Office 365</li>
-      <li>Established mail routes that direct email addressed not hosted in Google Workspace to Office 365 so as not to miss any potential emails</li>
-      <li>Configured Ironscales to catch potential phishing and spam emails to increase security</li>
+      <li>Strategically set up a Google Workspace tenant to manage active mailboxes and a separate Office 365 tenant for archived mail, resulting in cost savings for managing legacy email data.</li>
+      <li>Executed a seamless split migration, transferring active mail to Google Workspace and archived mail to Office 365.</li>
+      <li>Enhanced email security by configuring Ironscales to proactively identify and mitigate potential phishing and spam threats, bolstering overall cybersecurity measures.</li>
     </ul>
 
 # Communications Coordinator
@@ -62,10 +60,9 @@
   duration: ~200 Employees
   summary: 
     <ul class="resume-item-list">
-      <li>Implemented SimpleMDM to configure devices with a base installation of Munki, enabling security policies such as FileVault 2 for full-disk encryption and password requirements</li>
-      <li>Configured OneLogin as an Identity Provider (IdP), Dropbox as a file collaboration solution, Office 365 as a mail host, and Evercast as a remote editing tool to facilitate remote work</li>
-      <li>Configured an on-premises Active Directory server to sync users to OneLogin, mapping user groups to OneLogin roles to provide access to SaaS applications while Active Directory provided access to on-premises applications</li>
-      <li>Configured each device with SonicWall Connect VPN access to the on-premises equipment to view footage on AVID or to access the on-premises file server</li>
+      <li>Deployed SimpleMDM to configure mobile devices, enforcing critical security policies such as FileVault 2 for full-disk encryption and password requirements.</li>
+      <li>Set up OneLogin as an Identity Provider (IdP), integrated Dropbox for efficient file collaboration, hosted email services on Office 365, and adopted Evercast as a remote editing tool, significantly enhancing remote work capabilities.</li>
+      <li>Established seamless synchronization between an on-premises Active Directory server and OneLogin, enabling user group mappings to OneLogin roles.</li>
     </ul>
 
 # Communications Coordinator
@@ -76,10 +73,11 @@
   duration: Jun 2018 - Jan 2019
   summary: 
     <ul class="resume-item-list">
-      <li>Designed AV conference rooms that allowed for seamless transitions between meetings, reducing overall staff time spent troubleshooting video conferences by about $80,000 per year</li>
-      <li>Utilized Slack APIs to ingest messages and convert them to support tickets, and interpret support ticket updates to relay back to the requestor, such that employees only needed to interact with Slack for IT support</li>
-      <li>Designed the IPv4 subnets and VLAN scheme for a branch office, with SSIDs and network ports configured for infrastructure, staff, and guest VLANs</li>
-      <li>Configured Ubiquiti Security Gateway, Ubiquiti Access Point AC Pro, and Ubiquiti Switch 16 PoE</li>
+      <li>Orchestrated the design of AV conference rooms, enabling effortless transitions between meetings, resulting in an ~$80,000 annual reduction in staff time spent troubleshooting video conferences.</li>
+      <li>Leveraged Slack APIs and Freshdesk APIs to automate the conversion of Slack messages into Freshdesk support tickets and relayed Freshdesk support ticket updates back to requestors via Slack.</li>
+      <li>Crafted a comprehensive IPv4 subnet and VLAN scheme for a branch office, meticulously configuring SSIDs and network ports to accommodate infrastructure, staff, and guest VLANs.</li>
+      <li>Expertly configured network infrastructure, including the Ubiquiti Security Gateway, Ubiquiti Access Point AC Pro, and Ubiquiti Switch 16 PoE, ensuring reliable and secure network operations.</li>
+      <li>Administered OneLogin, Dropbox, Google Workspace, GitHub, Jira, Confluence, Meraki Systems Manager, Zoom, and Slack.</li>
     </ul>
 
 # Communications Coordinator
@@ -90,8 +88,8 @@
   duration: Mar 2018 - Jun 2018
   summary: 
     <ul class="resume-item-list">
-      <li>Deployed Windows 10 to replace Windows 7 by imaging a new hard drive with a copy of Windows 10 configured with a base suite of applications, installing the drive in the target desktop, configuring BIOS to use that drive as the boot volume, and mapping the old Windows 7 drive as an external volume for file transfer</li>
-      <li>Assisted the Engineering team with DevOps tasks by researching and implementing a proof-of-concept of GitHub Large File Storage (LFS)</li>
+      <li>Supported the Engineering team in DevOps initiatives by conducting in-depth research and successfully implementing a proof-of-concept for GitHub Large File Storage (LFS).</li>
+      <li>Deployed Windows 10 to replace Windows 7 by imaging a new hard drive with a copy of Windows 10 configured with a base suite of applications, installing the drive in the target desktop, configuring BIOS to use that drive as the boot volume, and mapping the old Windows 7 drive as an external volume for file transfer.</li>
     </ul>
 
 # Communications Coordinator
@@ -102,9 +100,10 @@
   duration: Jan 2017 - Oct 2017
   summary: 
     <ul class="resume-item-list">
-      <li>Implemented Airwatch as a cross-platform Mobile Device Management (MDM) system, enrolling Windows, iOS, and Android devices to be compliant with IT security policies</li>
-      <li>Implemented OneLogin as an Identity Provider (IdP), enrolling employees with Multi-Factor Authentication (MFA) and adding applications for Single Sign-On (SSO) with just-in-time (JIT) provisioning</li>
-      <li>Created WiFi heat maps to identify areas of weak signal strength, relocated access points, and adjusted radio settings to improve WiFi connectivity throughout the office</li>
+      <li>Successfully deployed Airwatch as a versatile Mobile Device Management (MDM) solution, enrolling Windows, iOS, and Android devices to ensure strict adherence to IT security policies.</li>
+      <li>Established OneLogin as the Identity Provider (IdP) of choice, enrolling employees with Multi-Factor Authentication (MFA) and seamlessly integrating applications to enable efficient Single Sign-On (SSO) with just-in-time (JIT) provisioning.</li>
+      <li>Designed WiFi heat maps for precise identification of weak signal areas, strategically relocated access points, and optimized radio settings, resulting in significantly improved WiFi connectivity across the entire office.</li>
+      <li>Administered OneLogin, Airwatch, Google Workspace, Dropbox, Box, Jira, Confluence, Slack, QNAP, Meraki, and WebEx.</li>
     </ul>
 
 # Communications Coordinator
@@ -115,7 +114,8 @@
   duration: Sep 2015 - Dec 2016
   summary: 
     <ul class="resume-item-list">
-      <li>Developed a video conversion and hosting platform using Amazon Web Services (AWS) Elastic Compute Cloud (EC2), Linux/Nginx/MySQL/PHP (LEMP) servers, AWS Simple Storage Service (S3), and AWS CloudFront, reducing IT services costs by $150,000 per year</li>
+      <li>Developed a video conversion and hosting platform using Amazon Web Services (AWS) Elastic Compute Cloud (EC2), Linux/Nginx/MySQL/PHP (LEMP) servers, AWS Simple Storage Service (S3), and AWS CloudFront, reducing IT services costs by $150,000 per year.</li>
+      <li>Administered Drupal, the Content Management System (CMS) that hosted the online school’s content.</li>
     </ul>
 
 # Communications Coordinator
@@ -126,8 +126,9 @@
   duration: Sep 2014 - Sep 2015
   summary: 
     <ul class="resume-item-list">
-      <li>Developed a Google Chrome extension using JavaScript, HTML, and CSS, significantly increasing ticket creation speed by 20% and efficiency by 400%</li>
-      <li>Resolved issues with LDAP, Active Directory, Office 365, Google Workspace, and VPN connections</li>
+      <li>Mentored a team of student employees.</li>
+      <li>Developed a Google Chrome extension using JavaScript, HTML, and CSS, leading to a notable 20% increase in ticket creation speed and a fourfold boost in efficiency.</li>
+      <li>Resolved critical issues related to LDAP, Active Directory, Office 365, Google Workspace, and VPN connections, ensuring seamless and uninterrupted IT operations.</li>
     </ul>
 
 # Communications Coordinator
@@ -138,5 +139,6 @@
   duration: May 2011 - Aug 2014
   summary: 
     <ul class="resume-item-list">
-      <li>Performed malware removal, hardware diagnostic, and software troubleshooting on an estimated 1,500 Windows, macOS, iOS, and Android devices</li>
+      <li>Trained new employees and fostered an enjoyable and collaborative work environment.</li>
+      <li>Conducted malware removal, hardware diagnostics, and software troubleshooting on approximately 1,500 devices running Windows, macOS, iOS, and Android operating systems.</li>
     </ul>

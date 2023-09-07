@@ -401,6 +401,10 @@ nav a:hover {
       margin: 0 0 .2rem;
     }
   }
+  a {
+    color: inherit;
+    font-weight: inherit;
+  }
   .section-header {
     @include section_border_thin;
     margin-bottom: 1rem;
