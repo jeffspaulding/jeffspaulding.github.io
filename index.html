@@ -9,6 +9,13 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
   <ol>
     <li><a href="#">(Top)</a></li>
     <li><a href="#summary">Summary</a></li>
+    {% if site.resume_section_skills %}
+    <li><a href="#skills">Skills</a></li>
+    {% endif %}
+    {% if site.resume_section_certifications %}
+    <li><a href="#certifications">Certifications</a></li>
+    {% endif %}
+    {% if site.resume_section_experience %}
     <li><a href="#experience">Work Experience</a></li>
       <ol>
         {% for job in site.data.experience %}
@@ -17,9 +24,13 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
         {% endif %}
         {% endfor %}
       </ol>
+    {% endif %}
+    {% if site.resume_section_education %}
     <li><a href="#education">Education</a></li>
-    <li><a href="#skills">Skills</a></li>
+    {% endif %}
+    {% if site.resume_section_interests %}
     <li><a href="#interests">Outside Interests</a></li>
+    {% endif %}
   </ol>
 </div>
 
@@ -39,6 +50,7 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
   </div>
 
   {% if site.resume_looking_for_work == 'yes' %}
+  <span class="open-to-work no-print">I'm <b>#opentowork</b>!</span>
   <a href="https://linkedin.com/in/jeffspaulding" class="contact-button no-print" itemprop="email">Contact Me on LinkedIn</a>
   {% elsif site.resume_looking_for_work == 'no' %}
   <a class="contact-button not-looking no-print">I'm not looking for work right now.</a>
@@ -46,6 +58,54 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
   {% endif %}
 
 </section>
+
+{% if site.resume_section_skills %}
+<!-- begin Skills -->
+<section class="content-section">
+
+  <header id="skills" class="section-header">
+    <h2>Skills</h2>
+  </header>
+  <table>
+    <tr>
+      {% for skills in site.data.skills %}
+      <th>{{ skills.skilltype }}</th>
+      {% endfor %}
+    </tr>
+    <tr>
+    {% for skills in site.data.skills %}
+      <td>
+        <ul>
+          {% for skill in skills.list %}
+          <li>{{ skill }}</li>
+          {% endfor %}
+       </ul>
+     </td>
+    {% endfor %}
+    </tr>
+  </table>
+
+</section>
+<!-- end Skills -->
+{% endif %}
+
+{% if site.resume_section_certifications %}
+<!-- begin Certifications -->
+<section class="content-section">
+
+  <header id="certifications" class="section-header">
+    <h2>Certifications</h2>
+  </header>
+
+  <p>
+  {% for certification in site.data.certifications %}
+  {{ certification.cert }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  </p>
+
+</section>
+<!-- end Certifications -->
+{% endif %}
 
 {% if site.resume_section_experience %}
 <!-- begin Experience -->
@@ -121,44 +181,6 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 
 </section>
 <!-- end Projects -->
-{% endif %}
-
-{% if site.resume_section_skills %}
-<!-- begin Skills -->
-<section class="content-section">
-
-  <header id="skills" class="section-header">
-    <h2>Skills</h2>
-  </header>
-  {% for skill in site.data.skills %}
-  <div class="resume-item">
-    <h4 class="resume-item-details">{{ skill.skill }}</h4>
-    <p class="resume-item-copy">{{ skill.description }}</p>
-  </div>
-  {% endfor %}
-
-</section>
-<!-- end Skills -->
-{% endif %}
-
-{% if site.resume_section_recognition %}
-<!-- begin Recognition -->
-<section class="content-section">
-
-  <header class="section-header">
-    <h2>Recognition</h2>
-  </header>
-
-  {% for recognition in site.data.recognitions %}
-  <div class="resume-item">
-    <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-    <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-    <p class="resume-item-copy">{{ recognition.summary }}</p>
-  </div>
-  {% endfor %}
-
-</section>
-<!-- end Recognition -->
 {% endif %}
 
 {% if site.resume_section_associations %}
