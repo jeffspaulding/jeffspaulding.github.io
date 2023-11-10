@@ -1,4 +1,15 @@
 # Jobs
+# Meta - Technical Project Manager, Contractor
+- company: Meta
+  image: images/meta.png
+  id: meta
+  position: Technical Project Manager
+  duration: Nov 2023 - Current
+  summary:
+    <ul class="resume-item-list">
+      <li>Working with Workplace and Quest for Business.</li>
+    </ul>
+
 # Apple TV+ - Systems Engineer, Contractor
 - company: Apple TV+
   image: images/apple.jpg
