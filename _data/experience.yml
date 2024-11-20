@@ -3,18 +3,22 @@
 - company: Meta
   image: images/meta.png
   id: meta
-  position: Technical Project Manager
-  duration: Nov 2023 - Current
+  position: Enterprise Technical Support Analyst
+  duration: Nov 2023 - Nov 2024
   summary:
     <ul class="resume-item-list">
-      <li>Working with Workplace and Quest for Business.</li>
+      <li>The first member of a new team focused on increasing the quality of support for the highest revenue Workplace and Quest for Business customers.</li>
+      <li>Lead high urgency, high impact issues invovling SCIM API, Graph API, and SAML integrations to resolution.</li>
+      <li>Identified reproduction steps for highly complex customer-reported bugs in the Workplace and Quest for Business platforms, leading to reduced resolution times when coordinating with engineering teams.</li>
+      <li>Created a series of highly-rated training videos to onboard the rapidly scaling international team.</li>
+      <li>Received unprompted praise by name from high revenue customers through Customer Success channels, praising the dramatic increase of the quality of support as a direct result of my contributions, knowledge, and skill.</li>
     </ul>
 
 # Apple TV+ - Systems Engineer, Contractor
 - company: Apple TV+
   image: images/apple.jpg
   id: appletv
-  position: Systems Engineer, Contractor
+  position: Systems Engineer, Identity and Access Management
   duration: Nov 2022 - May 2023
   summary:
     <ul class="resume-item-list">
