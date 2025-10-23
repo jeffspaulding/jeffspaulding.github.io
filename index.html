@@ -8,12 +8,9 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
   <div id="toc-header">Table of Contents</div>
   <ol>
     <li><a href="#">(Top)</a></li>
-    <li><a href="#summary">Summary</a></li>
-    {% if site.resume_section_skills %}
-    <li><a href="#skills">Skills</a></li>
-    {% endif %}
-    {% if site.resume_section_certifications %}
-    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#summary">Executive Summary</a></li>
+    {% if site.resume_section_techstack %}
+    <li><a href="#techstack">Technology Stack</a></li>
     {% endif %}
     {% if site.resume_section_experience %}
     <li><a href="#experience">Work Experience</a></li>
@@ -28,8 +25,11 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
     {% if site.resume_section_education %}
     <li><a href="#education">Education</a></li>
     {% endif %}
-    {% if site.resume_section_interests %}
-    <li><a href="#interests">Outside Interests</a></li>
+    {% if site.resume_section_certifications %}
+    <li><a href="#certifications">Certifications</a></li>
+    {% endif %}
+    {% if site.resume_section_books %}
+    <li><a href="#books">Favorite Books</a></li>
     {% endif %}
   </ol>
 </div>
@@ -38,15 +38,14 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 <section class="content-section">
   <div class="title-bar no-print">
 
-    <!-- Your title is also defined in the _config.yml file -->
+    <!-- Job title is also defined in the _config.yml file -->
     <h2 id="summary" class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
-    <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
     {% include icon-links.html %}
   </div>
 
   <div class="executive-summary" itemprop="description">
-    {{ site.resume_header_intro }}
+    {{ site.resume_executive_summary }}
   </div>
 
   {% if site.resume_looking_for_work == 'yes' %}
@@ -56,52 +55,21 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 
 </section>
 
-{% if site.resume_section_skills %}
-<!-- begin Skills -->
+{% if site.resume_section_techstack %}
+<!-- begin Technology Stack -->
 <section class="content-section">
 
-  <header id="skills" class="section-header">
-    <h2>Skills</h2>
+  <header id="techstack" class="section-header">
+    <h2>Technology Stack</h2>
   </header>
-  <table>
-    <tr>
-      {% for skills in site.data.skills %}
-      <th>{{ skills.skilltype }}</th>
-      {% endfor %}
-    </tr>
-    <tr>
-    {% for skills in site.data.skills %}
-      <td>
-        <ul>
-          {% for skill in skills.list %}
-          <li>{{ skill }}</li>
-          {% endfor %}
-       </ul>
-     </td>
-    {% endfor %}
-    </tr>
-  </table>
-
-</section>
-<!-- end Skills -->
-{% endif %}
-
-{% if site.resume_section_certifications %}
-<!-- begin Certifications -->
-<section class="content-section">
-
-  <header id="certifications" class="section-header">
-    <h2>Certifications</h2>
-  </header>
-
   <p>
-  {% for certification in site.data.certifications %}
-  {{ certification.cert }}{% unless forloop.last %},{% endunless %}
+  {% for category in site.data.techstack %}
+  <b>{{ category.name }}: </b>{{ category.list }}</br>
   {% endfor %}
   </p>
 
 </section>
-<!-- end Certifications -->
+<!-- end Technology Stack -->
 {% endif %}
 
 {% if site.resume_section_experience %}
@@ -159,99 +127,39 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 <!-- end Education -->
 {% endif %}
 
-
-{% if site.resume_section_projects %}
-<!-- begin Projects -->
+{% if site.resume_section_certifications %}
+<!-- begin Certifications -->
 <section class="content-section">
-  <header class="section-header">
-    <h2>Projects</h2>
+
+  <header id="certifications" class="section-header">
+    <h2>Certifications</h2>
   </header>
 
-  {% for project in site.data.projects %}
-  <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-    <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-    <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
-    <p class="resume-item-copy">{{ project.description }}</p>
-  </div>
+  <p>
+  {% for certification in site.data.certifications %}
+  {{ certification.cert }}{% unless forloop.last %},{% endunless %}
   {% endfor %}
+  </p>
 
 </section>
-<!-- end Projects -->
+<!-- end Certifications -->
 {% endif %}
 
-{% if site.resume_section_associations %}
-<!-- begin Associations -->
+
+{% if site.resume_section_books %}
+<!-- begin Favorite Books -->
 <section class="content-section">
 
-  <header class="section-header">
-    <h2>Associations</h2>
+  <header id="books" class="section-header">
+    <h2>Favorite Books</h2>
   </header>
 
-  {% for association in site.data.associations %}
-  <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
-    <h3 class="resume-item-title" itemprop="name">{% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}</h3>
-    <h4 class="resume-item-details" itemprop="description">{{ association.role }} &bull; {{ association.year }}</h4>
-    <p class="resume-item-copy">{{ association.summary }}</p>
-  </div>
-  {% endfor %}
+  <ul>
+    {% for book in site.data.books %}
+    <li><a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}</li>
+    {% endfor %}
+  </ul>
 
 </section>
-<!-- end Associations -->
-{% endif %}
-
-{% if site.resume_section_interests %}
-<!-- begin Interests -->
-<section class="content-section">
-
-  <header id="interests" class="section-header">
-    <h2>Outside Interests</h2>
-  </header>
-
-  <div class="resume-item">
-    <ul class="resume-item-list">
-      {% for interest in site.data.interests %}
-      <li>{{ interest.description }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-
-</section>
-<!-- end Interests -->
-{% endif %}
-
-{% if site.resume_section_links %}
-<!-- begin Links -->
-<section class="content-section">
-
-  <header class="section-header">
-    <h2>Additional Links</h2>
-  </header>
-
-  <div class="resume-item">
-    <ul class="resume-item-list">
-      {% for link in site.data.links %}
-      <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-
-</section>
-<!-- end Links -->
-{% endif %}
-
-{% if site.resume_print_social_links %}
-<!-- begin Print Social Links -->
-<section class="content-section print-only">
-
-  <header class="section-header">
-    <h2>Social Links</h2>
-  </header>
-
-  <div class="resume-item">
-  {% include print-social-links.html %}
-  </div>
-
-</section>
-<!-- end Print Social Links -->
+<!-- end Favorite Books -->
 {% endif %}

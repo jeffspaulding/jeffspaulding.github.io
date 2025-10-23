@@ -281,7 +281,8 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
-  webrick (~> 1.8)
+  rexml
+  webrick
 
 BUNDLED WITH
    2.4.21

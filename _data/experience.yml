@@ -1,5 +1,4 @@
-# Jobs
-# Meta - Technical Project Manager, Contractor
+# Work Experience
 - company: Meta
   image: images/meta.png
   id: meta
@@ -7,14 +6,14 @@
   duration: Nov 2023 - Nov 2024
   summary:
     <ul class="resume-item-list">
-      <li>The first member of a new team focused on increasing the quality of support for the highest revenue Workplace and Quest for Business customers.</li>
-      <li>Lead high urgency, high impact issues invovling SCIM API, Graph API, and SAML integrations to resolution.</li>
-      <li>Identified reproduction steps for highly complex customer-reported bugs in the Workplace and Quest for Business platforms, leading to reduced resolution times when coordinating with engineering teams.</li>
-      <li>Created a series of highly-rated training videos to onboard the rapidly scaling international team.</li>
-      <li>Received unprompted praise by name from high revenue customers through Customer Success channels, praising the dramatic increase of the quality of support as a direct result of my contributions, knowledge, and skill.</li>
+      <li>Pioneered a new team to increase technical support for 50+ enterprise B2B clients.</li>
+      <li>Resolved high-urgency issues involving SCIM API, Graph API, and SAML integrations utilizing Azure AD/Entra ID, Okta, Ping, and OneLogin.</li>
+      <li>Diagnosed complex bugs in enterprise platforms, reducing resolution times with engineering teams by 6 weeks.</li>
+      <li>Developed Python and PowerShell scripts for enterprise B2B clients to pull data from platform APIs.</li>
+      <li>Created a series of 10 training videos to onboard 8 new members of the enterprise technical support team.</li>
+      <li>Received unprompted praise from 3 enterprise B2B clients as a direct result of my contributions, reflecting a 60% improvement in overall CSAT score.</li>
     </ul>
 
-# Apple TV+ - Systems Engineer, Contractor
 - company: Apple TV+
   image: images/apple.jpg
   id: appletv
@@ -22,13 +21,12 @@
   duration: Nov 2022 - May 2023
   summary:
     <ul class="resume-item-list">
-      <li>Streamlined integration of 5 Apple-built, in-house apps with OneLogin, enhancing security and user access through technologies like OpenID Connect (OIDC), SAML, OAuth 2.0, and SCIM APIs.</li>
-      <li>Enabled Single Sign-On (SSO) and just-in-time (JIT) or SCIM provisioning for SaaS applications via OneLogin, simplifying user access management.</li>
-      <li>Created a streamlined automation system utilizing OneLogin as an Identity Provider (IdP), Zendesk for IT Service Management (ITSM), Python scripting, and Google Cloud Platform (GCP) for computation, forecasted to reduce IT staffing requirements by 3 members in 2023.</li>
-      <li>Managed critical systems including OneLogin, Zendesk, Box, Google Workspace, and Oomnitza.</li>
+      <li>Contributed to the SSO integration development of 3 internal tools utilizing OIDC, SAML, OAuth 2.0, and SCIM APIs.</li>
+      <li>Enabled SSO, JIT, and SCIM provisioning for 10+ SaaS applications, supporting over 500 external users in Apple TV+ production crew.</li>
+      <li>Administered 4 SaaS applications, supporting over 30 internal users in the Apple TV+ team.</li>
+      <li>Streamlined provisioning for Apple TV+ production crew using OneLogin, Zendesk, Python scripting on GCP, reducing $250,000+ in IT staffing costs.</li>
     </ul>
 
-# Scopely
 - company: Scopely
   image: images/scopely.jpg
   id: scopely
@@ -36,51 +34,26 @@
   duration: Aug 2021 - Oct 2022
   summary: 
     <ul class="resume-item-list">
-      <li>Achieved a $200,000 reduction in annual SaaS expenditures in 2022 by conducting comprehensive audits employing Python scripts, APIs, and Excel.</li>
-      <li>Successfully deployed Oomnitza as the IT Asset Management (ITAM) platform, overseeing the ingestion of and ensuring quality data for more than 9,000 assets.</li>
-      <li>Enhanced efficiency by cutting IT new hire provisioning time in half through streamlined process optimization.</li>
-      <li>Reduced average resolution times by 50% through strategic process enhancements.</li>
-      <li>Administered SaaS applications including Adobe Creative Cloud, Apple App Store Connect, Figma, GitHub, Google Workspace, Grammarly, Lucidchart, Mailchimp, Microsoft App Center, Microsoft Office 365, Miro, NinjaRMM,  Okta, Oomnitza, Smartsheet, Twilio, and Zoom.</li>
+      <li>Reduced SaaS costs by $200,000 through comprehensive audits utilizing Python scripts, APIs, and Excel.</li>
+      <li>Deployed Oomnitza as the IT Asset Management (ITAM) platform, ensuring data quality for more than 9,000 assets.</li>
+      <li>Streamlined the new hire provisioning process, reducing IT touch time by 50%.</li>
+      <li>Administered IAM, MDM, and 30+ SaaS applications, supporting over 1,000 employees across 10 game studios.</li>
     </ul>
 
-# Communications Coordinator
 - company: Feedwire
   image: images/feedwire.jpg
   id: feedwire
   position: IT Consultant
   duration: Mar 2019 - Apr 2021
   summary: 
-    '<ul class="resume-item-list">
-      <li>Led a team of five Systems Engineers responsible for over one million dollars of billable work per year across a portfolio of 200 annual clients.</li>
-      <li>Achieved a 15% revenue increase through the implementation of agile project management methodologies and process enhancements.</li>
-      <li>Employed Slack APIs in conjunction with Google Calendar APIs to develop automated billing review notifications for agents.</li>
-      <li>Leveraged Google Calendar APIs, Zendesk APIs, Airtable APIs, AWS Relational Database Service (RDS), and Brightgauge to develop real-time capacity and Key Performance Indicator (KPI) dashboards, resulting in a reduction of average response times to 30 minutes and average resolution times to 2.5 days.</li>
-      <li>Successfully deployed OneLogin for 30-40 projects, Slack for 10 projects, Zendesk for 3 projects, and managed Google Workspace and Office 365 for 20-30 projects.</li>
-      <li>Executed 30-40 email migrations and 10 cloud data migrations, and facilitated 10-20 office network installations.</li>
-    </ul>
-    Examples of the work I’ve done for my clients at Feedwire include:'
-
-# Communications Coordinator
-- position: Social Movement Organization
-  duration: ~50 Employees
-  summary: 
     <ul class="resume-item-list">
-      <li>Strategically set up a Google Workspace tenant to manage active mailboxes and a separate Office 365 tenant for archived mail, resulting in cost savings for managing legacy email data.</li>
-      <li>Executed a seamless split migration, transferring active mail to Google Workspace and archived mail to Office 365.</li>
-      <li>Enhanced email security by configuring Ironscales to proactively identify and mitigate potential phishing and spam threats, bolstering overall cybersecurity measures.</li>
+      <li>Led a team of 5 Systems Engineers responsible for over $1,000,000 of billable work per year, serving over 5,000 users across 200 businesses.</li>
+      <li>Executed 100+ technical deployments including network infrastructure, email solutions, IAM solutions, and SaaS applications.</li>
+      <li>Executed 50+ technical migrations including cloud-to-cloud email and on-prem-to-cloud infrastructure.</li>
+      <li>Developed a real-time insights platform utilizing AWS RDS, EC2, Brightgauge, and SaaS APIs, reducing average response times to 30 minutes and average resolution times to 2.5 days.</li>
+      <li>Achieved a 15% revenue increase through the implementation of Scrum and process improvements.</li>
     </ul>
 
-# Communications Coordinator
-- position: Live Television Production Studio
-  duration: ~200 Employees
-  summary: 
-    <ul class="resume-item-list">
-      <li>Deployed SimpleMDM to configure mobile devices, enforcing critical security policies such as FileVault 2 for full-disk encryption and password requirements.</li>
-      <li>Set up OneLogin as an Identity Provider (IdP), integrated Dropbox for efficient file collaboration, hosted email services on Office 365, and adopted Evercast as a remote editing tool, significantly enhancing remote work capabilities.</li>
-      <li>Established seamless synchronization between an on-premises Active Directory server and OneLogin, enabling user group mappings to OneLogin roles.</li>
-    </ul>
-
-# Communications Coordinator
 - company: Honey (joinhoney.com)
   image: images/honey.jpg
   id: honey
@@ -88,26 +61,24 @@
   duration: Jun 2018 - Jan 2019
   summary: 
     <ul class="resume-item-list">
-      <li>Orchestrated the design of AV conference rooms, enabling effortless transitions between meetings, resulting in an ~$80,000 annual reduction in staff time spent troubleshooting video conferences.</li>
-      <li>Leveraged Slack APIs and Freshdesk APIs to automate the conversion of Slack messages into Freshdesk support tickets and relayed Freshdesk support ticket updates back to requestors via Slack.</li>
-      <li>Crafted a comprehensive IPv4 subnet and VLAN scheme for a branch office, meticulously configuring SSIDs and network ports to accommodate infrastructure, staff, and guest VLANs.</li>
-      <li>Expertly configured network infrastructure, including the Ubiquiti Security Gateway, Ubiquiti Access Point AC Pro, and Ubiquiti Switch 16 PoE, ensuring reliable and secure network operations.</li>
-      <li>Administered OneLogin, Dropbox, Google Workspace, GitHub, Jira, Confluence, Meraki Systems Manager, Zoom, and Slack.</li>
+      <li>Designed frictionless A/V systems for 6 conference rooms, saving $80,000 annually in staff productivity time.</li>
+      <li>Automated IT support workflows using SaaS APIs, improving CSAT by 20%.</li>
+      <li>Designed a secure and scalable IPv4/VLAN network scheme for a branch office to accommodate infrastructure, staff, and guests.</li>
+      <li>Deployed network infrastructure including Ubiquiti Security Gateway, Ubiquiti Access Point AC Pro, and Ubiquiti Switch 16 PoE.</li>
+      <li>Administered IAM, MDM, and 10+ SaaS applications, supporting over 200 employees across 2 offices.</li>
     </ul>
 
-# Communications Coordinator
 - company: Naughty Dog
   image: images/naughtydog.jpg
   id: naughtydog
-  position: IT Generalist, Contractor
+  position: IT Generalist
   duration: Mar 2018 - Jun 2018
   summary: 
     <ul class="resume-item-list">
-      <li>Supported the Engineering team in DevOps initiatives by conducting in-depth research and successfully implementing a proof-of-concept for GitHub Large File Storage (LFS).</li>
-      <li>Deployed Windows 10 to replace Windows 7 by imaging a new hard drive with a copy of Windows 10 configured with a base suite of applications, installing the drive in the target desktop, configuring BIOS to use that drive as the boot volume, and mapping the old Windows 7 drive as an external volume for file transfer.</li>
+      <li>Supported the Software Engineering team in DevOps initiatives by implementing a proof-of-concept for GitHub Large File Storage (LFS).</li>
+      <li>Deployed Windows 10 upgrade custom-built desktops by utilizing OS imaging, BIOS, and volume mapping.</li>
     </ul>
 
-# Communications Coordinator
 - company: Headspace Inc.
   image: images/headspace.jpg
   id: headspace
@@ -115,13 +86,11 @@
   duration: Jan 2017 - Oct 2017
   summary: 
     <ul class="resume-item-list">
-      <li>Successfully deployed Airwatch as a versatile Mobile Device Management (MDM) solution, enrolling Windows, iOS, and Android devices to ensure strict adherence to IT security policies.</li>
-      <li>Established OneLogin as the Identity Provider (IdP) of choice, enrolling employees with Multi-Factor Authentication (MFA) and seamlessly integrating applications to enable efficient Single Sign-On (SSO) with just-in-time (JIT) provisioning.</li>
-      <li>Designed WiFi heat maps for precise identification of weak signal areas, strategically relocated access points, and optimized radio settings, resulting in significantly improved WiFi connectivity across the entire office.</li>
-      <li>Administered OneLogin, Airwatch, Google Workspace, Dropbox, Box, Jira, Confluence, Slack, QNAP, Meraki, and WebEx.</li>
+      <li>Established OneLogin as an IdP, enrolling employees with MFA and enabling SSO, JIT, and SCIM provisioning for 10+ SaaS apps, supporting over 200 users across 3 offices.</li>
+      <li>Deployed Airwatch as an MDM, enrolling Windows, iOS, and Android devices to ensure compliance with IT security policies.</li>
+      <li>Optimized WiFi connectivity across the office by analyzing heat maps and relocating access points, improving WiFi performance and stability.</li>
     </ul>
 
-# Communications Coordinator
 - company: CG Master Academy
   image: images/cgma.jpg
   id: cgmasteracademy
@@ -129,24 +98,19 @@
   duration: Sep 2015 - Dec 2016
   summary: 
     <ul class="resume-item-list">
-      <li>Developed a video conversion and hosting platform using Amazon Web Services (AWS) Elastic Compute Cloud (EC2), Linux/Nginx/MySQL/PHP (LEMP) servers, AWS Simple Storage Service (S3), and AWS CloudFront, reducing IT services costs by $150,000 per year.</li>
-      <li>Administered Drupal, the Content Management System (CMS) that hosted the online school’s content.</li>
+      <li>Developed a video conversion and hosting platform using AWS EC2, S3, CloudFront, Linux, Nginx, MySQL, and PHP, reducing IT services costs by $150,000 per year.</li>
     </ul>
 
-# Communications Coordinator
 - company: California State University Northridge
   image: images/csun.jpg
   id: csun
-  position: IT Help Center Consultant
+  position: IT Help Center Technician
   duration: Sep 2014 - Sep 2015
   summary: 
     <ul class="resume-item-list">
-      <li>Mentored a team of student employees.</li>
-      <li>Developed a Google Chrome extension using JavaScript, HTML, and CSS, leading to a notable 20% increase in ticket creation speed and a fourfold boost in efficiency.</li>
-      <li>Resolved critical issues related to LDAP, Active Directory, Office 365, Google Workspace, and VPN connections, ensuring seamless and uninterrupted IT operations.</li>
+      <li>Developed a Google Chrome extension using JavaScript, HTML, and CSS, leading to a 20% increase in ticket creation within a team of 20 staff.</li>
     </ul>
 
-# Communications Coordinator
 - company: The University of Maine
   image: images/umaine.jpg
   id: umaine
@@ -154,6 +118,5 @@
   duration: May 2011 - Aug 2014
   summary: 
     <ul class="resume-item-list">
-      <li>Trained new employees and fostered an enjoyable and collaborative work environment.</li>
       <li>Conducted malware removal, hardware diagnostics, and software troubleshooting on approximately 1,500 devices running Windows, macOS, iOS, and Android operating systems.</li>
     </ul>

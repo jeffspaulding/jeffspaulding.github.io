@@ -1,0 +1,13 @@
+# Technology Stack
+
+- name: "Cloud/DevOps"
+  list: "AWS, GCP, Linux, Python, Go, Bash, PowerShell, JavaScript, GitHub, App Store Connect, App Center, Jira, Confluence"
+
+- name: "IAM/Directory"
+  list: "OneLogin, Okta, Azure AD/Entra ID, Google Workspace, Office 365, LDAP"
+
+- name: "Networking/Storage"
+  list: "Meraki, Ubiquiti, HP Aruba, Cloudflare, Synology, QNAP"
+
+- name: "IT Ops/MDM"
+  list: "Jamf, Meraki Systems Manager, Airwatch, SimpleMDM, NinjaRMM, Zendesk, Oomnitza"

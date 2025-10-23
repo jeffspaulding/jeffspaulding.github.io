@@ -1,6 +1,6 @@
 # Site settings
 title: "Jeff Spaulding"
-description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
+description: "Senior IT Systems Engineer"
 
 # Build settings
 markdown: kramdown
@@ -9,56 +9,47 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar:                  "true"
-resume_name:                    "Jeff Spaulding"
-resume_title:                   "Sr. Systems Engineer, IAM, MDM, SaaS, IaaS"
+resume_avatar: "true"
+resume_name: "Jeff Spaulding"
+resume_title: "Senior IT Systems Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "jeff@jeffspaulding.com"
+resume_contact_email: "jeff@jeffspaulding.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 # resume_contact_telephone:       "555-7334"
 # resume_contact_address:         "742 Evergreen Terrace, Springfield"
 
-resume_header_contact_info:     "Los Angeles, California • jeff@jeffspaulding.com"
-display_header_contact_info:    "true"
+resume_header_contact_info: "Los Angeles, California • jeff@jeffspaulding.com"
+display_header_contact_info: "true"
 
-resume_header_intro: '<p>Results-driven IT professional with over 12 years of experience, delivering impactful solutions for top-tier organizations such as <a href="#appletv">Apple TV+</a>, <a href="#honey">Honey</a>, and <a href="#headspace">Headspace</a>. As a Systems Engineer and IT Consultant, I have consistently leveraged my expertise in Identity and Access Management (IAM), Mobile Device Management (MDM), and cloud technologies to enhance security, streamline operations, and reduce costs. My proficiency in automation, process improvement, and auditing has led to significant achievements, including a 15% increase in revenue, a $200,000 reduction in annual SaaS expenditures, and reductions in IT staffing needs.</p>
-<p>I bring a unique perspective to my work, as I am also proudly part of the <a href="/autism">autism spectrum</a> community. This aspect of my identity has enriched my problem-solving skills, allowing me to approach challenges with a fresh and innovative mindset. With a track record of implementing complex IT solutions, optimizing processes, and providing efficient technical support, I have consistently contributed to increased productivity and efficient operations. My strong analytical skills, project management experience, and proficiency in various technologies make me a valuable asset in achieving organizational goals and ensuring a secure and efficient IT environment.</p>'
+resume_executive_summary: '<p>Detail-Oriented IT Engineer with 12+ years of experience transforming complex IT challenges into robust, predictable systems that prioritize efficiency and user experience. Successfully governed enterprise operations and security at <a href="#meta">Meta</a>, <a href="#appletv">Apple TV+</a>, and <a href="#scopey">Scopely</a>, achieving $450,000+ in quantified cost savings and improving client satisfaction by 60% (CSAT) through systematic problem-solving. Unique background integrates DevOps principles across AWS/GCP infrastructure, IAM automation (SCIM, SAML, OIDC), and extensive scripting (Python, PowerShell), supported by expertise in MDM, networking, and data migration. Seeking a Cloud/DevOps environment that values clear, documented processes and fosters an inclusive culture focused on long-term systemic health.</p>'
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
 # or remove the resume_looking_for_work option entirely
 # to leave blank
-resume_looking_for_work:        "yes"
+resume_looking_for_work: "yes"
 
 # Decide which sections to use
 # comment out to hide
-resume_section_skills:          true
-resume_section_certifications:  true
-resume_section_experience:      true
-resume_section_education:       true
-# resume_section_projects:        true
-# resume_section_links:           true
-# resume_section_associations:    true
-resume_section_interests:       true
+resume_section_techstack: true
+resume_section_experience: true
+resume_section_education: true
+resume_section_certifications: true
+resume_section_books: true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_print_button:          true
-  resume_github_url:            "https://github.com/jeffspaulding"
-  # resume_twitter_url:           "http://twitter.com/jglovier"
-  # resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/jeffspaulding/"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "https://jeffspaulding.com"
-  # resume_medium_url:            "https://medium.com/@jglovier"
-resume_print_social_links:      true
+  resume_print_button: true
+  resume_github_url: "https://github.com/jeffspaulding"
+  resume_linkedin_url: "https://www.linkedin.com/in/jeffspaulding/"
+  resume_website_url: "https://jeffspaulding.com"
+resume_print_social_links: true
 
 # Design settings
-resume_theme:                   default
+resume_theme: default
 
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
