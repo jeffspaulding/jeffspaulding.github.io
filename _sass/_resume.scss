@@ -414,16 +414,38 @@ nav a:hover {
     color: inherit;
     font-weight: inherit;
   }
+
+  .resume-header {
+    padding-bottom: 16px;
+
+    .avatar {
+      float: right;
+    }
+    .header-name {
+      text-align: left;
+    }
+    .header-contact-info {
+      text-align: left;
+    }
+  }
+
   .section-header {
     @include section_border_thin;
+    border-top: none;
     margin-bottom: 1rem;
     h2 { font-size: 1.2rem; line-height: 1.5rem; }
   }
+
   .content-section {
     margin: 0 0 1rem;
     .resume-item { margin-bottom: 1rem; }
     .resume-item-title {
       font-size: 16px;
+      line-height: 16px;
+    }
+
+    .resume-item-image {
+      height: 16px;
     }
 
     .resume-item-details {

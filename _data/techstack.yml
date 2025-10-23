@@ -1,7 +1,7 @@
 # Technology Stack
 
 - name: "Cloud/DevOps"
-  list: "AWS, GCP, Linux, Python, Go, Bash, PowerShell, JavaScript, GitHub, App Store Connect, App Center, Jira, Confluence"
+  list: "AWS, GCP, Linux, Python, Go, Bash, PowerShell, JavaScript, GitHub, Atlassian"
 
 - name: "IAM/Directory"
   list: "OneLogin, Okta, Azure AD/Entra ID, Google Workspace, Office 365, LDAP"
