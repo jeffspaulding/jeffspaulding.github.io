@@ -1,7 +1,7 @@
 # Technology Stack
 
 - name: "Cloud/DevOps"
-  list: "AWS, GCP, Linux, Python, Go, Bash, PowerShell, JavaScript, GitHub, Atlassian"
+  list: "AWS, GCP, Linux, Python, Go, Bash, PowerShell, GitHub, Atlassian"
 
 - name: "IAM/Directory"
   list: "OneLogin, Okta, Azure AD/Entra ID, Google Workspace, Office 365, LDAP"
@@ -10,4 +10,4 @@
   list: "Meraki, Ubiquiti, HP Aruba, Cloudflare, Synology, QNAP"
 
 - name: "IT Ops/MDM"
-  list: "Jamf, Meraki Systems Manager, Airwatch, SimpleMDM, NinjaRMM, Zendesk, Oomnitza"
+  list: "Jamf, Intune, Airwatch, SimpleMDM, NinjaRMM, Zendesk, Oomnitza"

@@ -10,7 +10,7 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
     <li><a href="#">(Top)</a></li>
     <li><a href="#summary">Executive Summary</a></li>
     {% if site.resume_section_techstack %}
-    <li><a href="#techstack">Technology Stack</a></li>
+    <li><a href="#techstack">Tech Stack</a></li>
     {% endif %}
     {% if site.resume_section_experience %}
     <li><a href="#experience">Work Experience</a></li>
@@ -44,6 +44,9 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
     {% include icon-links.html %}
   </div>
 
+  <header id="techstack" class="section-header print-only">
+    <h2>Executive Summary</h2>
+  </header>
   <div class="executive-summary" itemprop="description">
     {{ site.resume_executive_summary }}
   </div>
@@ -56,11 +59,11 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 </section>
 
 {% if site.resume_section_techstack %}
-<!-- begin Technology Stack -->
+<!-- begin Tech Stack -->
 <section class="content-section">
 
   <header id="techstack" class="section-header">
-    <h2>Technology Stack</h2>
+    <h2>Tech Stack</h2>
   </header>
   <p>
   {% for category in site.data.techstack %}
@@ -69,11 +72,11 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
   </p>
 
 </section>
-<!-- end Technology Stack -->
+<!-- end Tech Stack -->
 {% endif %}
 
 {% if site.resume_section_experience %}
-<!-- begin Experience -->
+<!-- begin Work Experience -->
 <section class="content-section">
 
   <header id="experience" class="section-header">
@@ -82,21 +85,29 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 
   {% for job in site.data.experience %}
   <div id="{{ job.id }}" class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-    {% if job.image %}
-    <img src="{{ job.image }}" class="resume-item-image" alt="{{ job.company }}" itemprop="image">
-    {% endif %}
-    {% if job.company %}
-    <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-    {% endif %}
-    <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+    <div class="resume-item-metadata">
+      {% if job.image %}
+      <img src="{{ job.image }}" class="resume-item-image no-print" alt="{{ job.company }}" itemprop="image">
+      {% endif %}
+      {% if job.company %}
+      <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
+      {% endif %}
+      <h4 class="resume-item-details no-print" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
+      <table class="print-only">
+        <tr>
+          <td><h4 class="resume-item-details resume-item-position print-only" itemprop="description">{{ job.position }}</h4></td>
+          <td><h4 class="resume-item-details resume-item-duration print-only" itemprop="description">{{ job.duration }}</h4></td>
+        </tr>
+      </table>
+    </div>
     {% if job.summary %}
-    <p class="resume-item-copy">{{ job.summary }}</p>
+    <div class="resume-item-copy">{{ job.summary }}</div>
     {% endif %}
   </div><!-- end of resume-item -->
   {% endfor %}
 
 </section>
-<!-- end Experience -->
+<!-- end Work Experience -->
 {% endif %}
 
 
@@ -109,18 +120,17 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 
   {% for education in site.data.education %}
   <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-    <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-    <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-    <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-    <p class="resume-item-copy" itemprop="description">
-      <ul class="resume-item-list">
-        {% for award in education.awards %}
-        <li>{{ award.award }}</li>
-        {% endfor %}
-      </ul>
-
-
-    <p class="resume-item-copy">{{ education.summary }}</p>
+    <div class="resume-item-metadata">
+      <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
+      <h4 class="resume-item-details group no-print" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+      <table class="print-only">
+        <tr>
+          <td><h4 class="resume-item-details resume-item-position" itemprop="description">{{ education.degree }}</h4></td>
+          <td><h4 class="resume-item-details resume-item-duration" itemprop="description">{{ education.year }}</h4></td>
+        </tr>
+      </table>
+    </div>
+    <div class="resume-item-copy">{{ education.summary }}</div>
   </div>
   {% endfor %}
 </section>
@@ -135,11 +145,11 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
     <h2>Certifications</h2>
   </header>
 
-  <p>
+  <ul>
   {% for certification in site.data.certifications %}
-  {{ certification.cert }}{% unless forloop.last %},{% endunless %}
+    <li>{{ certification.cert }}</li>
   {% endfor %}
-  </p>
+  </ul>
 
 </section>
 <!-- end Certifications -->
@@ -156,7 +166,7 @@ description: "IT Systems Engineer, Autism Advocate, and Overall Wizard"
 
   <ul>
     {% for book in site.data.books %}
-    <li><a href="{{ book.link }}">{{ book.title }}</a> by {{ book.author }}</li>
+    <li><a href="{{ book.link }}"><i>{{ book.title }}</i></a> by {{ book.author }}</li>
     {% endfor %}
   </ul>
 

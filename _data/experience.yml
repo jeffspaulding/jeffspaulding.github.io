@@ -21,10 +21,10 @@
   duration: Nov 2022 - May 2023
   summary:
     <ul class="resume-item-list">
+      <li>Streamlined provisioning for Apple TV+ production crew using OneLogin, Zendesk, and Python scripting on GCP, reducing $250,000+ in IT staffing costs.</li>
       <li>Contributed to the SSO integration development of 3 internal tools utilizing OIDC, SAML, OAuth 2.0, and SCIM APIs.</li>
-      <li>Enabled SSO, JIT, and SCIM provisioning for 10+ SaaS applications, supporting over 500 external users in Apple TV+ production crew.</li>
-      <li>Administered 4 SaaS applications, supporting over 30 internal users in the Apple TV+ team.</li>
-      <li>Streamlined provisioning for Apple TV+ production crew using OneLogin, Zendesk, Python scripting on GCP, reducing $250,000+ in IT staffing costs.</li>
+      <li>Enabled SSO, JIT, and SCIM provisioning for 10+ SaaS applications, supporting 500+ external users in Apple TV+ production crew.</li>
+      <li>Administered 4 SaaS applications, supporting 30+ internal users in the Apple TV+ team.</li>
     </ul>
 
 - company: Scopely
@@ -35,9 +35,9 @@
   summary: 
     <ul class="resume-item-list">
       <li>Reduced SaaS costs by $200,000 through comprehensive audits utilizing Python scripts, APIs, and Excel.</li>
-      <li>Deployed Oomnitza as the IT Asset Management (ITAM) platform, ensuring data quality for more than 9,000 assets.</li>
+      <li>Deployed Oomnitza as an ITAM platform, ensuring data quality for more than 9,000 assets.</li>
       <li>Streamlined the new hire provisioning process, reducing IT touch time by 50%.</li>
-      <li>Administered IAM, MDM, and 30+ SaaS applications, supporting over 1,000 employees across 10 game studios.</li>
+      <li>Administered IAM, MDM, and 30+ SaaS applications, supporting 1,000+ employees across 10 game studios.</li>
     </ul>
 
 - company: Feedwire
@@ -47,8 +47,8 @@
   duration: Mar 2019 - Apr 2021
   summary: 
     <ul class="resume-item-list">
-      <li>Led a team of 5 Systems Engineers responsible for over $1,000,000 of billable work per year, serving over 5,000 users across 200 businesses.</li>
-      <li>Executed 100+ technical deployments including network infrastructure, email solutions, IAM solutions, and SaaS applications.</li>
+      <li>Led an MSP team of 5 Systems Engineers responsible for $1,000,000+ of billable work per year, serving 5,000+ users across 200 businesses.</li>
+      <li>Executed 100+ technical deployments including network infrastructure, IAM solutions, and SaaS applications.</li>
       <li>Executed 50+ technical migrations including cloud-to-cloud email and on-prem-to-cloud infrastructure.</li>
       <li>Developed a real-time insights platform utilizing AWS RDS, EC2, Brightgauge, and SaaS APIs, reducing average response times to 30 minutes and average resolution times to 2.5 days.</li>
       <li>Achieved a 15% revenue increase through the implementation of Scrum and process improvements.</li>
@@ -63,9 +63,8 @@
     <ul class="resume-item-list">
       <li>Designed frictionless A/V systems for 6 conference rooms, saving $80,000 annually in staff productivity time.</li>
       <li>Automated IT support workflows using SaaS APIs, improving CSAT by 20%.</li>
-      <li>Designed a secure and scalable IPv4/VLAN network scheme for a branch office to accommodate infrastructure, staff, and guests.</li>
-      <li>Deployed network infrastructure including Ubiquiti Security Gateway, Ubiquiti Access Point AC Pro, and Ubiquiti Switch 16 PoE.</li>
-      <li>Administered IAM, MDM, and 10+ SaaS applications, supporting over 200 employees across 2 offices.</li>
+      <li>Deployed a secure and scalable IPv4/VLAN network scheme for a branch office to accommodate infrastructure, staff, and guests.</li>
+      <li>Administered IAM, MDM, and 10+ SaaS applications, supporting 200+ employees across 2 offices.</li>
     </ul>
 
 - company: Naughty Dog
@@ -75,7 +74,7 @@
   duration: Mar 2018 - Jun 2018
   summary: 
     <ul class="resume-item-list">
-      <li>Supported the Software Engineering team in DevOps initiatives by implementing a proof-of-concept for GitHub Large File Storage (LFS).</li>
+      <li>Supported the Engineering team in DevOps initiatives by implementing a proof-of-concept for GitHub LFS.</li>
       <li>Deployed Windows 10 upgrade custom-built desktops by utilizing OS imaging, BIOS, and volume mapping.</li>
     </ul>
 
@@ -86,8 +85,8 @@
   duration: Jan 2017 - Oct 2017
   summary: 
     <ul class="resume-item-list">
-      <li>Established OneLogin as an IdP, enrolling employees with MFA and enabling SSO, JIT, and SCIM provisioning for 10+ SaaS apps, supporting over 200 users across 3 offices.</li>
-      <li>Deployed Airwatch as an MDM, enrolling Windows, iOS, and Android devices to ensure compliance with IT security policies.</li>
+      <li>Established OneLogin as an IdP, enrolling employees with MFA and enabling SSO, JIT, and SCIM provisioning for 10+ SaaS applications, supporting 200+ users across 3 offices.</li>
+      <li>Deployed Airwatch as an MDM, enrolling macOS, Windows, iOS, and Android devices to ensure compliance with IT security policies.</li>
       <li>Optimized WiFi connectivity across the office by analyzing heat maps and relocating access points, improving WiFi performance and stability.</li>
     </ul>
 
@@ -118,5 +117,5 @@
   duration: May 2011 - Aug 2014
   summary: 
     <ul class="resume-item-list">
-      <li>Conducted malware removal, hardware diagnostics, and software troubleshooting on approximately 1,500 devices running Windows, macOS, iOS, and Android operating systems.</li>
+      <li>Conducted malware removal, hardware diagnostics, and software troubleshooting on 1,500+ devices.</li>
     </ul>

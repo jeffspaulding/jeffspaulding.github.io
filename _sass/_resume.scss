@@ -332,6 +332,16 @@ nav a:hover {
 
   .resume-item { margin-bottom: 2rem; }
 
+  .resume-item-metadata {
+    table {
+      width: 100%;
+      tr td:last-child {
+        width: 1%;
+        white-space: nowrap;
+      }
+    }
+  }
+
   .resume-item-image {
     float: left;
     height: 35px;
@@ -418,14 +428,15 @@ nav a:hover {
   .resume-header {
     padding-bottom: 16px;
 
-    .avatar {
-      float: right;
-    }
     .header-name {
       text-align: left;
     }
     .header-contact-info {
       text-align: left;
+      margin-top: 1em;
+      p {
+        margin: 0;
+      }
     }
   }
 
@@ -444,19 +455,19 @@ nav a:hover {
       line-height: 16px;
     }
 
-    .resume-item-image {
-      height: 16px;
-    }
-
     .resume-item-details {
       font-size: 12px;
       margin: 0 0 .75rem;
       line-height: .7em;
-      font-style:italic;
+      font-style: italic;
+    }
 
-      &.award-title {
-        font-size: 11px;
-      }
+    .resume-item-copy {
+      margin: 0;
+    }
+
+    .resume-item-list {
+      margin: 0;
     }
   }
 }

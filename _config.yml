@@ -13,15 +13,9 @@ resume_avatar: "true"
 resume_name: "Jeff Spaulding"
 resume_title: "Senior IT Systems Engineer"
 
-# used for the contact button in _layouts/resume.html
-resume_contact_email: "jeff@jeffspaulding.com"
-
-# the next two items are used for schema itemprops in _layouts/resume.html
-# resume_contact_telephone:       "555-7334"
-# resume_contact_address:         "742 Evergreen Terrace, Springfield"
-
-resume_header_contact_info: "Los Angeles, California • jeff@jeffspaulding.com"
 display_header_contact_info: "true"
+resume_contact_location: "Los Angeles, California"
+resume_contact_email: "jeff@jeffspaulding.com"
 
 resume_executive_summary: '<p>Detail-Oriented IT Engineer with 12+ years of experience transforming complex IT challenges into robust, predictable systems that prioritize efficiency and user experience. Successfully governed enterprise operations and security at <a href="#meta">Meta</a>, <a href="#appletv">Apple TV+</a>, and <a href="#scopey">Scopely</a>, achieving $450,000+ in quantified cost savings and improving client satisfaction by 60% (CSAT) through systematic problem-solving. Unique background integrates DevOps principles across AWS/GCP infrastructure, IAM automation (SCIM, SAML, OIDC), and extensive scripting (Python, PowerShell), supported by expertise in MDM, networking, and data migration. Seeking a Cloud/DevOps environment that values clear, documented processes and fosters an inclusive culture focused on long-term systemic health.</p>'
 
